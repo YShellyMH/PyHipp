@@ -27,5 +27,6 @@ from PyHipp import export_mountain_cells; \
 export_mountain_cells.export_mountain_cells(); \
 print(time.localtime());"
 
-conda deactivate /data/src/PyHipp/envlist.py $envarg
+conda deactivate
+/data/src/PyHipp/envlist.py $envarg
 
